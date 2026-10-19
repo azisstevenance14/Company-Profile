@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Perusahaan</title>
+    
+    <!-- CSS Bootstrap Lokal -->
+    <link rel="stylesheet" href="Bootstrap5.3/css/bootstrap.min.css">
+    
+    <!-- Bootstrap Icons (CDN untuk Icon Modern) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Style CSS Manual -->
+    <link rel="stylesheet" href="styling/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="#">
+                <span class="text-info">Tech</span>Corp
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav me-3">
+                    <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                </ul>
+                <a href="#kontak" class="btn btn-custom-primary px-4 rounded-pill">Mulai Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section d-flex align-items-center">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-8">
+                    <span class="badge bg-info text-dark px-3 py-2 rounded-pill mb-3 fs-6">Inovasi Digital & Hardware 2026</span>
+                    <h1 class="display-3 fw-bold mb-3">Membangun Masa Depan Bisnis Anda</h1>
+                    <p class="lead text-light mb-4 opacity-75">
+                        Kami menyediakan solusi teknologi terdepan mulai dari pengembangan web, sistem IoT, hingga rekayasa sistem kelistrikan untuk efisiensi bisnis Anda.
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+                        <a href="#layanan" class="btn btn-custom-primary btn-lg px-4 rounded-pill">Lihat Layanan</a>
+                        <a href="#kontak" class="btn btn-outline-light btn-lg px-4 rounded-pill">Hubungi Kami</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: PROJECT / LAYANAN -->
+    <section id="layanan" class="py-5 bg-dark text-white">
+        <div class="fruits py-4 m-5">
+            <div class="text-center mb-5">
+                <h6 class="text-info text-uppercase fw-bold tracking-wider">Layanan Unggulan</h6>
+                <h2 class="display-5 fw-bold">Bidang Project Yang Kami Tangani</h2>
+                <p class="text-light opacity-75">Solusi end-to-end dari perangkat lunak hingga perangkat keras secara profesional.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1: Web Development -->
+                <div class="col-md-3">
+                    <div class="card card-service h-100 bg-secondary bg-opacity-10 border-0 p-4 text-white rounded-4 shadow-sm">
+                        <div class="icon-box mb-4 text-info">
+                            <i class="bi bi-code-slash fs-1"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Web Development</h4>
+                        <p class="text-light opacity-75 mb-4">
+                            Pengembangan website responsif, sistem dashboard admin, dan aplikasi web modern dengan performa tinggi dan desain UI/UX yang estetik.
+                        </p>
+                        <a href="#kontak" class="text-info text-decoration-none fw-semibold mt-auto">Konsultasi Project <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 2: IoT (Internet of Things) -->
+                <div class="col-md-3">
+                    <div class="card card-service h-100 bg-secondary bg-opacity-10 border-0 p-4 text-white rounded-4 shadow-sm">
+                        <div class="icon-box mb-4 text-info">
+                            <i class="bi bi-cpu fs-1"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Internet of Things (IoT)</h4>
+                        <p class="text-light opacity-75 mb-4">
+                            Perancangan sistem otomasi berbasis mikrokontroler (ESP8266/Raspberry Pi), integrasi sensor jarak jauh, dan pemantauan data real-time.
+                        </p>
+                        <a href="#kontak" class="text-info text-decoration-none fw-semibold mt-auto">Konsultasi Project <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Electrical Engineering -->
+                <div class="col-md-3">
+                    <div class="card card-service h-100 bg-secondary bg-opacity-10 border-0 p-4 text-white rounded-4 shadow-sm">
+                        <div class="icon-box mb-4 text-info">
+                            <i class="bi bi-lightning-charge fs-1"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Electrical Engineering</h4>
+                        <p class="text-light opacity-75 mb-4">
+                            Desain dan monitoring sistem tenaga listrik, analisis *loss* daya listrik, instalasi modul relay, dan pengujian keandalan perangkat keras.
+                        </p>
+                        <a href="#kontak" class="text-info text-decoration-none fw-semibold mt-auto">Konsultasi Project <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Electrical Engineering -->
+                <div class="col-md-3">
+                    <div class="card card-service h-100 bg-secondary bg-opacity-10 border-0 p-4 text-white rounded-4 shadow-sm">
+                        <div class="icon-box mb-4 text-info">
+                            <i class="bi bi-shield-shaded fs-1"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Electrical Engineering</h4>
+                        <p class="text-light opacity-75 mb-4">
+                            Desain dan monitoring sistem tenaga listrik, analisis *loss* daya listrik, instalasi modul relay, dan pengujian keandalan perangkat keras.
+                        </p>
+                        <a href="#kontak" class="text-info text-decoration-none fw-semibold mt-auto">Konsultasi Project <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: KONTAK -->
+    <section id="kontak" class="py-5 bg-darker text-white position-relative">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <h6 class="text-info text-uppercase fw-bold">Mulai Kolaborasi</h6>
+                    <h2 class="display-5 fw-bold mb-4 text-info">Punya Project Menarik? Diskusi Bersama Kami!</h2>
+                    <p class="text-dark opacity-75 mb-4">
+                        Isi formulir di samping atau hubungi kami melalui saluran informasi di bawah ini untuk konsultasi gratis.
+                    </p>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-geo-alt fs-4 text-info me-3"></i>
+                        <span class="text-dark opacity-75">Gorontalo, Gorontalo, Indonesia</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-envelope fs-4 text-info me-3"></i>
+                        <span class="text-dark opacity-75">contact@techcorp.com</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-telephone fs-4 text-info me-3"></i>
+                        <span class="text-dark opacity-75">+62 812 3456 7890</span>
+                    </div>
+                </div>
+
+                <!-- Form Kontak -->
+                <div class="col-lg-7">
+                    <div class="p-4 p-md-5 bg-secondary bg-opacity-10 rounded-4 border border-secondary border-opacity-25 shadow">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label text-light">Nama Lengkap</label>
+                                    <input type="text" class="form-control form-control-dark" placeholder="Masukkan nama kamu">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-light">Email</label>
+                                    <input type="email" class="form-control form-control-dark" placeholder="nama@email.com">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label text-light">Jenis Layanan</label>
+                                    <select class="form-select form-control-dark">
+                                        <option selected>Pilih Bidang Project...</option>
+                                        <option value="1">Web Development</option>
+                                        <option value="2">Internet of Things (IoT)</option>
+                                        <option value="3">Electrical Engineering</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label text-light">Pesan / Detail Project</label>
+                                    <textarea class="form-control form-control-dark" rows="4" placeholder="Jelaskan kebutuhan project kamu..."></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-custom-primary w-100 py-3 rounded-pill fs-6 fw-bold">
+                                        Kirim Pesan <i class="bi bi-send ms-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4 bg-black border-top border-secondary border-opacity-25 text-white">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <a class="navbar-brand fw-bold fs-5 text-white text-decoration-none" href="#">
+                        <span class="text-info">Tech</span>Corp
+                    </a>
+                    <span class="ms-2 opacity-50 small">&copy; 2026 TechCorp. All rights reserved.</span>
+                </div>
+                <!-- Social Media Icons -->
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="https://instagram.com" target="_blank" class="social-icon text-white fs-5 me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="social-icon text-white fs-5 me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="https://github.com" target="_blank" class="social-icon text-white fs-5"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Bootstrap Lokal -->
+    <script src="Bootstrap5.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
